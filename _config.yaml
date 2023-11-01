@@ -4,3 +4,7 @@ author:
   email: liuzengh@qq.com
 
 theme: minima
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
