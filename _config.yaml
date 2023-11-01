@@ -18,4 +18,5 @@ plugins:
 
 
 minima:
-  - { platform: github,         user_url: "https://github.com/liuzengh" }
+  social_links:
+    - { platform: github,         user_url: "https://github.com/liuzengh" }
