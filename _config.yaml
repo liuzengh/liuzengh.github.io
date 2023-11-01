@@ -9,5 +9,8 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
 
+
+github_username:  jekyll
+
 minima:
   - { platform: github,         user_url: "https://github.com/jekyll/minima" }
