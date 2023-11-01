@@ -3,7 +3,7 @@ author:
   name: goodliu
   email: liuzengh@qq.com
 
-theme: minima
+#theme: minima
 
 plugins:
   - jekyll-feed
