@@ -26,29 +26,20 @@ Good 来自于我的中文名字——“刘曾好”中的最后一个字。
 
 - 读书：最近在读 Gregory Bassham 写的 [<< 批判性思维（原书第5版）>>](https://book.douban.com/subject/33405075/)，觉得里面的一些谬论挺有意思的
 
-![关于谬论的名句](images/about/fallacy.jpg)
+![关于谬论的名句](/images/about/fallacy.jpg)
 
 
 - 运动：隔几天晚上会沿着大沙河跑步到深圳湾，吹吹海风；拉拉弹力绳、爬山、乒乓、钓鱼、桌球
 
 
-<!-- <figure>
-  <img src="images/about/Shenzhen-Bay-night-view.jpg" alt="2023.11.05 深圳湾夜景">
-  <figcaption>2023.11.05 深圳湾夜景</figcaption>
-</figure> -->
 
-![2023.11.05 深圳湾夜景](images/about/Shenzhen-Bay-night-view.jpg)
+![2023.11.05 深圳湾夜景](/images/about/Shenzhen-Bay-night-view.jpg)
 2023.11.05 深圳湾夜景
 
 - 游戏：博德之门3，入坑的第一款 PC 游戏，刚开始确实非常惊艳，但是最近没有继续探索的动力
 
 
-<!-- <figure>
-  <img src="images/about/perfumed-letter-from-a-squashed-fisherman-when-falling-from-ship.jpg" alt="从飞船上掉落到大陆，从被压扁的渔民的身上读到的带有香水的信 ">
-  <figcaption>从飞船上掉落到大陆，从被压扁的渔民的身上读到的带有香水的信 </figcaption>
-</figure> -->
-
-![从飞船上掉落到大陆，从被压扁的渔民的身上读到的带有香水的信](images/about/perfumed-letter-from-a-squashed-fisherman-when-falling-from-ship.jpg)
+![从飞船上掉落到大陆，从被压扁的渔民的身上读到的带有香水的信](/images/about/perfumed-letter-from-a-squashed-fisherman-when-falling-from-ship.jpg)
 从飞船上掉落到大陆，从被压扁的渔民的身上读到的带有香水的信
 
 
