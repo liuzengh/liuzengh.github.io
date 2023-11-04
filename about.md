@@ -41,7 +41,6 @@ Good 来自于我的中文名字——“刘曾好”中的最后一个字。
 从飞船上掉落到大陆，从被压扁的渔民的身上读到的带有香水的信
 
 
-
 ## 关于 liuzengh.github.io
 
 liuzengh.github.io 是利用 [Github Pages](https://pages.github.com/) 快速搭建的个人网站。
