@@ -6,20 +6,16 @@ permalink: /about/
 
 ## 关于 Good
 
+Good 来自于我的中文名字——“刘曾好”中的最后一个字。
+比较好玩的是，这个“好”字是小学一年级改名时我自己追加的字。
+“好” 字的多重含义：
+- 实现家中老人听信“名字取三个字比较好”的想法
+- 符合风水先生笔画数为六比较好的测算，和名字前面两个字的笔画数凑成“六、十二、六”，有偶数，对称，以及吉祥数的多重增益加成
+- 反映独生子女政策对当时家庭生育的影响，至少父亲是明确表达最好是“儿女双全”；一个孩子的话，就是又当“女”儿，又当儿“子”
+- 寄托母亲（刘）和父亲（曾）婚姻美好，家庭和睦的期望
+- 希望我自己的一生都好好的
+- 做一个好人
 
 ## 关于 liuzengh.github.io
 
 
-
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
-
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
-
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-
-[jekyll-organization]: https://github.com/jekyll
