@@ -24,4 +24,7 @@ Good 来自于我的中文名字——“刘曾好”中的最后一个字。
 
 ## 关于 liuzengh.github.io
 
-
+liuzengh.github.io 是利用 [Github Pages](https://pages.github.com/) 快速搭建的个人网站。
+本网站的代码和文章托管在我的[个人 Github 仓库](https://github.com/liuzengh/liuzengh.github.io)上。
+本网站的文章如非注明转载均为原创。
+本网站所有原创文章使用 [Creative Commons 署名-相同方式共享 4.0 国际协议](https://creativecommons.org/licenses/by-sa/4.0/deed.zh-hans)许可证进行许可，如需其他使用请事先联系我。
