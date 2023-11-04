@@ -26,6 +26,12 @@ Good 来自于我的中文名字——“刘曾好”中的最后一个字。
 
 - 读书：最近在读 Gregory Bassham 写的 [<< 批判性思维（原书第5版）>>](https://book.douban.com/subject/33405075/)，觉得里面的一些谬误挺有意思的
 - 运动：隔几天晚上会沿着大沙河跑步到深圳湾，吹吹海风；拉拉弹力绳、爬山、乒乓、钓鱼、桌球
+
+<figure>
+  <img src="images/Shenzhen-Bay-night-view.jpg" alt=" 2023.11.05 深圳湾夜景">
+  <figcaption>2023.11.05 深圳湾夜景</figcaption>
+</figure>
+
 - 游戏：博德之门3，入坑的第一款 PC 游戏，刚开始确实非常惊艳，但是最近没有继续探索的动力
 
 
