@@ -31,5 +31,5 @@ liuzengh.github.io 是利用 [Github Pages](https://pages.github.com/) 快速搭
 
 ## 联系方式
 
-- 个人邮箱：liuzengh@qq.com
-- Github: https://github.com/liuzengh
+- 个人邮箱： <a href="mailto:liuzengh@qq.com"> liuzengh@qq.com </a>
+- Github: [https://github.com/liuzengh](https://github.com/liuzengh)
