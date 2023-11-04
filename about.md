@@ -24,7 +24,11 @@ Good 来自于我的中文名字——“刘曾好”中的最后一个字。
 
 ### 最近的状态
 
-- 读书：最近在读 Gregory Bassham 写的 [<< 批判性思维（原书第5版）>>](https://book.douban.com/subject/33405075/)，觉得里面的一些谬误挺有意思的
+- 读书：最近在读 Gregory Bassham 写的 [<< 批判性思维（原书第5版）>>](https://book.douban.com/subject/33405075/)，觉得里面的一些谬论挺有意思的
+
+![关于谬论的名句](images/about/fallacy.jpg)
+
+
 - 运动：隔几天晚上会沿着大沙河跑步到深圳湾，吹吹海风；拉拉弹力绳、爬山、乒乓、钓鱼、桌球
 
 
