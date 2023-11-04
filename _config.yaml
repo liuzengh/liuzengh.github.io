@@ -1,15 +1,16 @@
 title: Good 的博客
-# author:
-#   name: goodliu
-#   email: liuzengh@qq.com
+author:
+  name: 刘曾好
+  email: liuzengh@qq.com
 
 # The `>` after `description:` means to ignore line-breaks until next key.
 # If you want to omit the line-break after the end of text, use `>-` instead.
-# description: >
-#   Write an awesome description for your new site here. You can edit this line
-#   in _config.yml. It will appear in your document head meta (for Google search
-#   results) and in your feed.xml site description.
-
+description: >
+  liuzengh.github.io 是利用 [Github Pages](https://pages.github.com/) 快速搭建的个人网站。
+  本网站的代码和文章托管在名为 [liuzengh/liuzengh.github.io](https://github.com/liuzengh/liuzengh.github.io) 个人 Github 仓库上。
+  本网站的文章如非注明转载均为原创。
+  本网站所有原创文章使用 [Creative Commons 署名-相同方式共享 4.0 国际协议](https://creativecommons.org/licenses/by-sa/4.0/deed.zh-hans)许可证进行许可，如需其他使用请事先联系我。
+  
 theme: minima
 
 plugins:
