@@ -105,9 +105,8 @@ int find(int x){
 4.	else	return False 
 ```
 
-> 结论1： Connected-Components 处理完所有的边后，两个顶点在相同的连通分量中当且仅当它们在同一个集合中。
-
-> 结论2：Connected-Components 作用于一个有 k 个连通分量的无向图 `G=(V,E)` 的过程中，Find-Set 需要调用 2|E| 次，Union 需要调用 |V|-k 次。
+- 结论1： Connected-Components 处理完所有的边后，两个顶点在相同的连通分量中当且仅当它们在同一个集合中。
+- 结论2：Connected-Components 作用于一个有 `k` 个连通分量的无向图 `G=(V,E)` 的过程中，Find-Set 需要调用 `2|E|` 次，Union 需要调用 `|V|-k` 次。
 
 ### 练习题
 
