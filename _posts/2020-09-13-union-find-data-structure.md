@@ -578,7 +578,7 @@ class Solution:
         return ret
         
 ```
-<p id="947.移除最多的同行或同列石头"> 947.移除最多的同行或同列石头 <p>
+<p id="947.移除最多的同行或同列石头"> 947.移除最多的同行或同列石头 </p>
 
 ```
 我们将石头放置在二维平面中的一些整数坐标点上。每个坐标点上最多只能有一块石头。
@@ -597,6 +597,7 @@ class Solution:
 1 <= stones.length <= 1000
 0 <= stones[i][j] < 10000
 ```
+
 ```python
 class Solution:
     def removeStones(self, stones: List[List[int]]) -> int:
@@ -671,6 +672,7 @@ equations[i][0] 和 equations[i][3] 是小写字母
 equations[i][1] 要么是 '='，要么是 '!'
 equations[i][2] 是 '='
 ```
+
 ```cpp
 class Solution {
 /*
@@ -741,6 +743,7 @@ public:
 0 <= pairs[i][0], pairs[i][1] < s.length
 s 中只含有小写英文字母
 ```
+
 ```python
 class Solution:
     def smallestStringWithSwaps(self, s: str, pairs: List[List[int]]) -> str:
