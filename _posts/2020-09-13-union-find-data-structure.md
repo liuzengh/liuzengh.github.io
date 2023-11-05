@@ -106,6 +106,7 @@ int find(int x){
 ```
 
 > 结论1： Connected-Components处理完所有的边后，两个顶点在相同的连通分量中当且仅当它们在同一个集合中。
+
 > 结论2： Connected-Components作用于一个有k个连通分量的无向图$G=(V,E)$的过程中，Find-Set需要调用2|E|次，Union需要调用|V|-k次。
 
 ### 练习题
