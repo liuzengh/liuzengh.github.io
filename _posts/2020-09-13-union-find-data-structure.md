@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 并查集:用树结构表示不相交集合
-categories: misc
+categories: algorithm
 ---
 
 一些应用涉及将n个不同的元素分成一组不相交的集合,这些应用经常需要进行两种特别的操作:寻找包含给定元素的唯一集合和合并两个集合。
@@ -20,7 +20,8 @@ categories: misc
 ### 建立集合
 
 ```
-//数组p存放元素 i的父节点，初始化时元素的本身为集合代表元，指向自己，这是一个自环
+// 数组 p 存放元素 i 的父节点
+// 初始化时元素的本身为集合代表元，指向自己，这是一个自环
 for(int i=0; i<n; ++i){
 	p[i] = i;
 }
@@ -28,11 +29,12 @@ for(int i=0; i<n; ++i){
 
 ### 查找算法
 
-如果把x的父节点保存在p[x]中（如果x没有父结点，则p[x]等于x），则可以写出查找结点x所在树的根节点的递归程序：
+如果把 x 的父节点保存在 p[x] 中（如果 x 没有父结点，则 p[x] 等于 x\），则可以写出查找结点 x 所在树的根节点的递归程序：
 
 ```
 int find(int x){
-//如果p[x]等于x，说明x本身就是树根，因此返回x;否则返回x的父节点p[x]所在树的树根
+// 如果 p[x] 等于 x，说明 x 本身就是树根，因此返回 x
+// 否则返回x的父节点 p[x] 所在树的树根
 	return p[x]==x ? x : find(p[x]);
 }
 ```
@@ -47,33 +49,38 @@ int find(int x){
 ```
 1. Make-Set(x)
 2. 	x.p = x
-3. 	x.rank = 0 // 初始化单个结点的秩为0
+// 初始化单个结点的秩为0
+3. 	x.rank = 0
 4. Union(x, y)
-5. 	Link(Find-Set(x), Find-Set(y))  // Find-Set操作不改变任何秩
+// Find-Set 操作不改变任何秩
+5. 	Link(Find-Set(x), Find-Set(y))  
 6. Link(x, y)
 7. 	if x.rank > y.rank  
-8. 		y.p = x // 让较大秩的根成为较小秩的根的父节点， 但秩本身保持不变
+// 让较大秩的根成为较小秩的根的父节点， 但秩本身保持不变
+8. 		y.p = x 
 9. 	else
 10.		x. p = y
-11.		if x.rank == y.rank  // 两个根有相同秩时，任意选择一个作为父节点，并使它的秩加1
+// 两个根有相同秩时，任意选择一个作为父节点，并使它的秩加1
+11.		if x.rank == y.rank  
 12.			y.rank = y.rank + 1 
 ```
 
 ### 路径压缩
 
 在特殊情况下，这棵树可能时一条长长的链。
-设链的最后一个结点为x，则每次执行 find(x) 都会遍历整条链，效率十分低下。
+设链的最后一个结点为 x，则每次执行 find(x) 都会遍历整条链，效率十分低下。
 由于每棵树表示的只是一个集合，因此树的形态是无关紧要的，并不需要在“查找”操作之后保持树的形态不变，只需要把遍历过的结点都改成树根的子节点，下次操作就会块很多：
 
 ```
 int find(int x){
-//p[x]=x,遍历过的结点都改成树根的子节点
+// p[x]=x, 遍历过的结点都改成树根的子节点
 	return p[x]==x ? x : p[x]=find(p[x]);
 }
 ```
 
-![并查集上的路径压缩](https://img-blog.csdnimg.cn/20200911152319153.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3plbmdoYW93b3JraG9tZQ==,size_16,color_FFFFFF,t_70#pic_center)
-<center><strong>并查集上的路径压缩 </strong> </center>
+
+![并查集上的路径压缩](https://media.githubusercontent.com/media/liuzengh/liuzengh.github.io/main/images/post/2020-09-13/path-compress-ufds.png)
+并查集上的路径压缩
 
 ### 应用：确定无向图的连通分量
 
