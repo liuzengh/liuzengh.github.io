@@ -4,12 +4,11 @@ title: 正确使用随机数
 categories: development
 ---
 
-### 正确使用随机数
 
 实际上，计算机几乎不可能实现真正的随机性，因为这些随机数字是由于确定的算法产生的，计算机生成的是伪随机数。
 只不过这些看起来像随机的数，满足随机数的有许多已知的统计特性，在程序中被当作随机数使用。
 
-#### 随机数生成的基本原理
+### 随机数生成的基本原理
 
 无论是 Go 标准库里面的 `math/rand`，还是 C++ 标准库中的 `std::default_random_engine`，其基本原理都相同，
 都是使用 [`Lehmer` 在 1951 年提出的线性同余（linear congruential）的算法](https://en.wikipedia.org/wiki/Lehmer_random_number_generator)。
@@ -26,7 +25,7 @@ x(i+1) = A * x(i) % M
 我们可以让 `M` 为一个比较大的素数  `2^31-1 = 2,147,483,647`，使得生成的序列的周期最大，而此时对应的 `A` 可以为 16807 或 48271。
 例如，在 [go 的 `math/rand` 中选取的是数字 48271](https://cs.opensource.google/go/go/+/refs/tags/go1.20:src/math/rand/rng.go;l=186)。
 
-#### 避免频繁初始化随机数种子。 
+### 避免频繁初始化随机数种子。 
 
 随机数种子一般只需要在 `init()` 或 `main()` 中初始化一次。
 
@@ -63,7 +62,7 @@ func isEven() bool {
     return rand.Intn(2) == 0
 }
 ```
-#### 避免非均匀分布
+### 避免非均匀分布
 
 直接使用 `rand.Intn(n)`, `rand.Int31n(n)` 或 `rand.Int61n()`, 获取 `[0, n)` 的随机数。
 
@@ -80,7 +79,7 @@ randNum := rand.Intn(n)
 randNum := rand.Int() % n
 ```
 
-#### 避免出现差一错误
+### 避免出现差一错误
 
 例如抛掷一枚不均匀的硬币，有 80% 的概率得到正面， 有 20% 的概率得到反面。
 
@@ -114,7 +113,7 @@ func tossCoin() side {
 }
 ```
 
-#### 注意线程安全和性能影响
+### 注意线程安全和性能影响
 
 rand.Seed 和取随机数的方法是线程安全的，但是这可能会导致性能问题。当需要高频大量生成随机数时，可能会造成大量的锁竞争。
 因此，可以考虑使用新的 `rand.Source` 来创建新的随机数生成器。
@@ -144,7 +143,8 @@ func (c *SafeRand) Intn(n int) int {
 	return c.r.Intn(n)
 }
 ```
-#### 避免在安全领域，使用常规的非安全随机数生成器
+
+### 避免在安全领域，使用常规的非安全随机数生成器
 
 `math/rand` 包不是密码学安全的，容易遭受攻击， 攻击者可能会根据生成的随机数的特征预测随机数。
 因此永远不要使用 `math/rand` 生成对安全有敏感的随机数。
@@ -173,7 +173,7 @@ func genRandomMoneyFromMassBargin() int {
 }
 ```
 
-#### 参考
+### 参考
 
 - [rand() Considered Harmful](https://learn.microsoft.com/en-us/events/goingnative-2013/rand-considered-harmful)
 
